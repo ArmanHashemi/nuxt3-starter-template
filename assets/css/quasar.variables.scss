@@ -1,0 +1,26 @@
+$primary   : #2667FF;
+$secondary : #1D1B29;
+$accent    : #343741;
+$tertiary  : #71717A;
+
+$alarm     : #EF4444;
+
+$positive  : #21BA45;
+$negative  : #C10015;
+$info      : #31CCEC;
+$warning   : #F2C037;
+
+:root {
+  --q-tertiary : $tertiary;
+
+  .bg-tertiary{
+    background: var(--q-tertiary) !important
+  }
+  .text-tertiary{
+    color: var(--q-tertiary) !important;
+  }
+
+
+}
+
+
